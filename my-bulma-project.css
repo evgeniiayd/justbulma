@@ -4779,6 +4779,12 @@ div.icon-text {
 .darkish-linear {
   background: linear-gradient(rgb(0, 0, 0), rgb(45, 9, 66));
 }
+.svt-linear {
+  background: linear-gradient(rgb(205, 255, 194), rgb(197, 253, 240));
+}
+.candy-linear {
+  background: linear-gradient(rgb(255, 108, 201), rgb(255, 86, 86));
+}
 .progress:indeterminate::-webkit-progress-bar {
   background-color: transparent;
 }
@@ -4796,6 +4802,12 @@ div.icon-text {
 }
 .progress.is-large {
   height: var(--bulma-size-large);
+}
+.obvod {
+  text-shadow: 2px 0 2px #000, 
+  0 2px 2px #000, 
+  -2px 0 2px #000, 
+  0 -2px 2px #000;
 }
 
 @keyframes moveIndeterminate {
